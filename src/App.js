@@ -12,7 +12,7 @@ function App() {
           <b>Christopher Okoro</b>
         </div>
         <div className="link-section">
-          <a href="https://twitter.com/its_chriso">Twitter Link</a>
+          <a href="https://twitter.com/its_chriso" id ="twitter">Twitter Link</a>
           <a href="https://training.zuri.team/" id="btn__zuri">
             Zuri Team
           </a>
