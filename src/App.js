@@ -7,7 +7,6 @@ function App() {
       <img alt="" src="./images/refresh-btn.jpg" className="refresh" />
       <img alt="" src="./images/icon-dot.jpg" className="dotted" />
       </div>
-      <div className="wrapper">
         <div className="heading">
           <img alt="" src="./images/myPic1.png" id="profile__img"/>
           <b>Christopher Okoro</b>
@@ -34,7 +33,7 @@ function App() {
           <img alt="" src="./images/slack.png" />
           <img alt="" src="./images/github-icon.jpg" />
         </div>
-      </div>
+      
       <div className="footer">
         <img alt="" src="./images/vector.jpg" />
         <img alt="" src="./images/Footer text.jpg" />
