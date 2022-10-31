@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <div className="wrapper">
         <div className="heading">
-          <img alt="" src="./images/myPic1.png" />
+          <img alt="" src="./images/myPic1.png" id="profile__img"/>
           <b>Christopher Okoro</b>
         </div>
         <div className="link-section">
