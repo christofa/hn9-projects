@@ -3,6 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <div className="navigation-icons">
+      <img alt="" src="./images/refresh-btn.jpg" className="refresh" />
+      <img alt="" src="./images/icon-dot.jpg" className="dotted" />
+      </div>
       <div className="wrapper">
         <div className="heading">
           <img alt="" src="./images/myPic1.png" id="profile__img"/>

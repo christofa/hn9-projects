@@ -8,7 +8,23 @@
   flex-direction: column; 
   justify-content: center;
   align-items: center;
-  height: 100vh;
+}
+
+.navigation-icons {
+  width: 50%;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: right;
+}
+
+.navigation-icons .dotted {
+  display: none;
+}
+
+.navigation-icons .refresh {
+  border: 1px dashed #98a2b3;
+  border-radius: 20px;
+  padding: 10px
 }
 
 .heading {
@@ -25,3 +41,4 @@
     height: 88px;
     border-radius: 50%;
 }
+
