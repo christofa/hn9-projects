@@ -5,7 +5,7 @@
 
 .App {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 50px auto;
@@ -13,7 +13,7 @@
 
 .navigation-icons {
   width: 50%;
-  margin: 0 auto; 
+  margin: 0 auto;
   display: flex;
   justify-content: right;
 }
@@ -25,7 +25,7 @@
 .navigation-icons .refresh {
   border: 1px dashed #98a2b3;
   border-radius: 20px;
-  padding: 10px
+  padding: 10px;
 }
 
 .heading {
@@ -38,9 +38,9 @@
 }
 
 .heading img {
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
 }
 
 .link-section {
@@ -53,7 +53,7 @@
   width: 50%;
 }
 
-.link-section a{
+.link-section a {
   text-decoration: none;
   background-color: #eaecf0;
   border: 1px solid #eaecf0;
@@ -68,3 +68,21 @@
   font-size: 18px;
   line-height: 50px;
 }
+
+.media-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 36px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 48px 0px;
+  gap: 64px;
+  padding: 30px;
+}
+
+/* mobile version */
