@@ -30,8 +30,8 @@ function App() {
           </a>
         </div>
         <div className="media-section">
-          <img alt="" src="./images/slack.png" />
-          <img alt="" src="./images/github-icon.jpg" />
+          <a href="https://hng9.slack.com/christopherokoro"><img alt="" src="./images/slack.png" /></a>
+          <a href ="https://github.com/christofa"><img alt="" src="./images/github-icon.jpg" /></a>
         </div>
       
       <div className="footer">
