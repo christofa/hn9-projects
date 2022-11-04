@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -28,17 +29,15 @@ function App() {
           <a href="https://books.zuri.team/design-rules" id="book__design">
             Design Books{" "}
           </a>
+          <a href="https://books.zuri.team/design-rules" id="contact">
+            Contact me 
+          </a>
         </div>
         <div className="media-section">
           <a href="https://hng9.slack.com/christopherokoro"><img alt="" src="./images/slack.png" /></a>
           <a href ="https://github.com/christofa"><img alt="" src="./images/github-icon.jpg" /></a>
         </div>
-      
-      <div className="footer">
-        <img alt="" src="./images/vector.jpg" />
-        <img alt="" src="./images/Footer text.jpg" />
-        <img alt="" src="./images/I4G.jpg" />
-      </div>
+        <Footer/>
     </div>
   );
 }
