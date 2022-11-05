@@ -31,7 +31,7 @@ export default function Data() {
         <a href="https://books.zuri.team/design-rules" id="book__design">
           Design Books{" "}
         </a>
-        <Link to="/contact">Contact Me</Link>
+        <Link to="/contact" id="contact">Contact Me</Link>
       </div>
       <div className="media-section">
         <a href="https://hng9.slack.com/christopherokoro">

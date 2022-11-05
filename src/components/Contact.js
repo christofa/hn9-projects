@@ -47,6 +47,7 @@ export default function Contact() {
               value={formData.firstName}
               onChange={handleChange}
               name="firstName"
+              id="first_name"
             />
             {submitted &&  !formData.firstName? <span>This is a hint text to help user.</span> : null}
           </label>
@@ -59,6 +60,7 @@ export default function Contact() {
               value={formData.lastName}
               onChange={handleChange}
               name="lastName"
+              id="last_name"
             />
             {submitted &&  !formData.lastName? <span>This is a hint text to help user.</span>: null}
           </label>
@@ -74,6 +76,7 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               name="email"
+              id="email"
             />
             {submitted &&  !formData.email? <span>This is a hint text to help user.</span> : null}
           </label>
@@ -85,6 +88,7 @@ export default function Contact() {
               placeholder="Send me a message and I'll reply you as soon as possible..."
               value={formData.message}
               name="message"
+              id="message"
               className={submitted &&  !formData.message? "red-border-error":"message-default"}
             ></textarea>
             {submitted &&  !formData.message? <span className="message-error">Please enter a message</span> : null}
@@ -99,7 +103,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <button>send message</button>
+        <button id="btn__submit">send message</button>
       </form>
     </div>
   );
