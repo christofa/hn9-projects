@@ -81,8 +81,11 @@
 
 .footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 20px 0px;
-  gap: 64px;
+  margin: 10px;
+  /* gap: 10px; */
   border-top: 1.66667px solid #98a2b3;
 }
 
@@ -109,7 +112,7 @@
   }
 
   .footer {
-    flex-direction: column;
+    display: block;
     gap: 20px;
     width: 90%;
   }

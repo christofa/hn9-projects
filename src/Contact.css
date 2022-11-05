@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+.wrapper {
+ margin: 50px auto 50px auto;
+ width: 50%;
+}
+
+.first-name, .last-name, .email, .message {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+}
+
+.contact-header h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  color: #101828;
+}
+
+.contact-header p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #475467;
+  margin-bottom: 15px;
+}
+
+.name-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+  border: 1px solid #d0d5dd;
+  outline: none;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  height: 35px;
+}
+
+.first-name input, .last-name input, .email input {
+  width: 100%;
+  height: 44px;
+  margin-bottom: 15px;
+}
+
+textarea {
+  width: 100%;
+  height: 132px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0 10px 0 10px;
+  border: 1px solid #d0d5dd;
+  outline: none;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.message-default{
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.red-border-error {
+  background: #ffffff;
+  border: 1px solid #f89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #ffd3cc;
+  border-radius: 8px;
+}
+
+.message-error {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #f83f23;
+}
+
+form input:focus {
+  background: #ffffff;
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+form textarea:focus {
+  border: 1px solid #84caff;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #d1e9ff;
+  border-radius: 8px;
+}
+
+.contact-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.contact-footer input {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d0d5dd;
+  border-radius: 6px;
+  accent-color: #1570ef;
+  cursor: pointer;
+}
+
+.contact-footer p {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+
+button {
+  width: 104%;
+  height: 43px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  outline: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #175cd3;
+  border: 1px solid #175cd3;
+}
+
+button:active {
+  background: #b2ddff;
+  border: 1px solid #b2ddff;
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    width: 87%;
+    margin: 50px auto 50px 19px;
+  }
+  .name-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .email input {
+    width: 100%;
+  }
+   textarea {
+    width: 100%;
+  }
+  .contact-footer {
+    justify-content: center;
+  }
+}
