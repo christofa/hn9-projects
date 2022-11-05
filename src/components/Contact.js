@@ -87,6 +87,7 @@ export default function Contact() {
             <textarea
               placeholder="Send me a message and I'll reply you as soon as possible..."
               value={formData.message}
+              onChange={handleChange}
               name="message"
               id="message"
               className={submitted &&  !formData.message? "red-border-error":"message-default"}
